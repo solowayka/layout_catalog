@@ -24,7 +24,6 @@
   display: flex;
   flex-direction: column;
 
-  // height: 408px;
   border: $card-border;
   border-radius: $card-radius;
 
@@ -127,6 +126,6 @@
   }
 
   &:hover .card__title {
-    color: #34568b;
+    color: $color-darkblue;
   }
 }
