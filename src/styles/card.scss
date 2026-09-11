@@ -1,6 +1,6 @@
 .catalog__cards {
   display: grid;
-  grid-template-columns: $card-width;
+  grid-template-columns: 1fr;
   gap: 46px 48px;
   padding: 50px 40px;
   justify-content: center;
@@ -126,6 +126,6 @@
   }
 
   &:hover .card__title {
-    color: $color-darkblue;
+    color: $color-hover-title;
   }
 }

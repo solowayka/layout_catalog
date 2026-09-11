@@ -13,6 +13,9 @@
   }
 
   &__reviews {
+    align-items: center;
+    justify-content: flex-end;
+
     font-size: 10px;
     font-weight: 400;
     color: $color-main;
