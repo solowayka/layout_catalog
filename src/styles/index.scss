@@ -3,16 +3,12 @@
 @import './stars';
 @import './header';
 
-
-html {
+* {
   box-sizing: border-box;
 }
 
-
 body {
+  margin: 0;
   font-family: $font-main;
   font-style: normal;
-  display: flex;
-  justify-content: center;
-  margin: 0;
 }
